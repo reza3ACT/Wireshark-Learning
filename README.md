@@ -1,19 +1,14 @@
-Detail paket :
 
 
-1	0.000000	192.168.1.50	224.0.0.252	LLMNR	62	Unknown operation (9) 0x4c4c[Malformed Packet]
-2	1.000000	192.168.1.200	192.168.1.50	LLMNR	85	Unknown operation (9) 0x4c4c[Malformed Packet]
-3	2.000000	192.168.1.50	192.168.1.200	TCP	54	55555 → 445 [SYN] Seq=0 Win=8192 Len=0
-4	3.000000	192.168.1.200	192.168.1.50	TCP	54	445 → 55555 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0
-5	4.000000	192.168.1.50	192.168.1.200	TCP	54	55555 → 445 [ACK] Seq=1 Ack=1 Win=8192 Len=0
-6	5.000000	192.168.1.200	192.168.1.50	NBSS	138	NBSS Continuation Message
-7	6.000000	aa:bb:cc:dd:ee:ff	Broadcast	ARP	42	Gratuitous ARP for 192.168.1.1 (Reply)
-8	7.000000	aa:bb:cc:dd:ee:ff	CIMSYS_33:44:55	ARP	42	192.168.1.1 is at aa:bb:cc:dd:ee:ff
-9	8.000000	192.168.1.200	192.168.1.50	DHCP	316	DHCP Offer    - Transaction ID 0x3903f326
-10	9.000000	192.168.1.200	192.168.1.50	DHCP	310	DHCP ACK      - Transaction ID 0x3903f326
 
 
-Paket : 1. 0.000000	192.168.1.50	224.0.0.252	LLMNR	62	Unknown operation (9) 0x4c4c[Malformed Packet]\
+
+
+
+
+Paket : 
+	
+	1. 0.000000	192.168.1.50	224.0.0.252	LLMNR	62	Unknown operation (9) 0x4c4c[Malformed Packet]\
 		Protokol: LLMNR (Link-Local Multicast Name Resolution)
 		Tujuan: 224.0.0.252 → alamat multicast standar LLMNR
 		Isi: Permintaan name resolution (mirip DNS query, tapi broadcast di LAN)
